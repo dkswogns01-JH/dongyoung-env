@@ -627,7 +627,7 @@ function renderDetail(id) {
         <div class="md">MODEL ${p.model}</div>
         <p class="desc">${p.desc}</p>
         <table class="spec">${rows.map(r => `<tr><th>${r[0]}</th><td>${r[1]}</td></tr>`).join('')}</table>
-        ${p.g2b ? `<div class="g2b"><span class="k">나라장터 단가</span><span class="v">${won(p.g2b.price)}</span><span class="k">물품식별번호</span><span class="no">${p.g2b.no}</span><small>나라장터 등록명 ‘${p.g2b.name}’ (쓰레기통 품목) · 2026년 10월 등록 기준이며 변경될 수 있습니다.</small></div>` : ''}
+        ${p.g2b ? `<div class="g2b"><span class="k">가격</span><span class="v">${won(p.g2b.price)}</span><span class="k">물품식별번호</span><span class="no">${p.g2b.no}</span><small>가격은 2026년 10월 기준이며 변경될 수 있습니다. 나라장터 등록명 ‘${p.g2b.name}’ (쓰레기통 품목)</small></div>` : ''}
         <div class="pd-actions">
           <a class="btn btn-y" href="tel:01045898830">전화 문의</a>
           <a class="btn btn-line" href="sms:01045898830">문자 문의</a>
