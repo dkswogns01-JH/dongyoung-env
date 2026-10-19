@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동영종합환경 | 제설함 · 분리수거함 · 폐형광등 수거함 제조</title>
+    <meta name="description" content="경남 김해 동영종합환경 - 제설함, 투시창 분리수거함, 폐형광등 수거함, 폐건전지 수거함, 분리수거용 그물망 제조. 나라장터 쇼핑몰 다수공급자계약 등록 업체.">
+    <meta property="og:title" content="동영종합환경">
+    <meta property="og:description" content="제설함 · 분리수거함 · 재활용 수거함 제조 | 나라장터 쇼핑몰 등록 업체">
+    <meta property="og:image" content="assets/images/hero/factory.webp">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="font-sans text-gray-800 bg-gray-50 antialiased">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="#" onclick="showPage('home'); return false;" class="flex items-baseline gap-2">
+                    <span class="text-2xl font-black text-brand tracking-tight">DY</span>
+                    <span class="text-lg font-bold text-gray-900">동영종합환경</span>
+                </a>
+                <nav class="hidden md:flex items-center space-x-8 font-medium text-gray-700">
+                    <button onclick="showPage('home')" id="nav-home" class="nav-btn hover:text-brand transition">회사소개</button>
+                    <button onclick="showPage('products')" id="nav-products" class="nav-btn hover:text-brand transition">제품안내</button>
+                    <button onclick="showPage('contact')" id="nav-contact" class="nav-btn hover:text-brand transition">고객문의</button>
+                    <a href="catalog/dongyoung_catalog.pdf" download class="ml-2 px-4 py-2 rounded-lg bg-brand text-white text-sm font-semibold hover:bg-blue-900 transition">카탈로그 PDF</a>
+                </nav>
+                <button id="menu-btn" class="md:hidden text-gray-700 p-2" aria-label="메뉴 열기">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-6 space-y-3">
+            <button onclick="showPage('home')" class="block w-full text-left text-gray-700 font-medium py-1">회사소개</button>
+            <button onclick="showPage('products')" class="block w-full text-left text-gray-700 font-medium py-1">제품안내</button>
+            <button onclick="showPage('contact')" class="block w-full text-left text-gray-700 font-medium py-1">고객문의</button>
+            <a href="catalog/dongyoung_catalog.pdf" download class="block w-full text-center mt-2 px-4 py-3 rounded-lg bg-brand text-white font-semibold">카탈로그 PDF 다운로드</a>
+        </div>
+    </header>
+
+    <!-- PAGE: 홈 -->
+    <div id="page-home" class="page-content pt-20">
+        <section class="relative min-h-[560px] h-[calc(100vh-80px)] max-h-[820px] flex items-center bg-slate-900 text-white overflow-hidden">
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('assets/images/hero/factory.webp')"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-slate-900/30"></div>
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+                <p class="inline-block text-xs sm:text-sm font-semibold tracking-wide bg-accent text-slate-900 px-3 py-1 rounded-full mb-5">나라장터 쇼핑몰 다수공급자계약 · 중소기업자간경쟁제품</p>
+                <h1 class="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+                    제설함·분리수거함<br>재활용 수거함 제조 전문
+                </h1>
+                <p class="text-base sm:text-xl text-gray-200 mb-8 max-w-2xl">
+                    경남 김해 공장에서 직접 생산한 플라스틱 제설함과 재활용 수거함을<br class="hidden sm:inline"> 공공기관과 지자체에 공급합니다.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <button onclick="showPage('products')" class="bg-accent hover:bg-yellow-500 text-slate-900 font-bold px-8 py-4 rounded-lg shadow-lg transition">제품 보기</button>
+                    <a href="tel:01045898830" class="text-center border border-white/60 hover:bg-white/10 text-white font-semibold px-8 py-4 rounded-lg transition">전화 문의 010-4589-8830</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 주요 제품군 -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-14">
+                    <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-3">주요 제품군</h2>
+                    <p class="text-gray-600">자체 생산하는 제품을 나라장터 쇼핑몰에서도 바로 구매하실 수 있습니다.</p>
+                </div>
+                <div id="home-categories" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+            </div>
+        </section>
+
+        <!-- 회사 강점 -->
+        <section id="business" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-14">
+                    <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl mb-3">동영종합환경은</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-xl p-7 border border-gray-100">
+                        <div class="text-brand text-3xl font-black mb-3">01</div>
+                        <h3 class="text-lg font-bold mb-2">직접 생산</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">경남 김해시 한림면 공장에서 제품을 직접 생산합니다. 원산지 대한민국.</p>
+                    </div>
+                    <div class="bg-white rounded-xl p-7 border border-gray-100">
+                        <div class="text-brand text-3xl font-black mb-3">02</div>
+                        <h3 class="text-lg font-bold mb-2">나라장터 조달 등록</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">나라장터 쇼핑몰 다수공급자계약 등록 업체로, 공공기관은 쇼핑몰에서 바로 납품요구할 수 있습니다.</p>
+                    </div>
+                    <div class="bg-white rounded-xl p-7 border border-gray-100">
+                        <div class="text-brand text-3xl font-black mb-3">03</div>
+                        <h3 class="text-lg font-bold mb-2">기관명·로고 표기</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">제품 전면에 기관명과 로고를 넣어 납품할 수 있습니다. 표기 방식은 문의해 주세요.</p>
+                    </div>
+                    <div class="bg-white rounded-xl p-7 border border-gray-100">
+                        <div class="text-brand text-3xl font-black mb-3">04</div>
+                        <h3 class="text-lg font-bold mb-2">전국 납품</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">납품요구일로부터 30일 이내 전국 납품 (제주·도서산간은 운임 추가).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PAGE: 제품 목록 -->
+    <div id="page-products" class="page-content hidden pt-28 pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h1 class="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-3">제품안내</h1>
+                <p class="text-gray-600">모델을 누르면 규격과 사진을 자세히 볼 수 있습니다.</p>
+            </div>
+            <div id="cat-filter" class="flex flex-wrap justify-center gap-2 mb-10"></div>
+            <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+            <div class="mt-14 text-center">
+                <a href="catalog/dongyoung_catalog.pdf" download class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-brand text-white font-semibold hover:bg-blue-900 transition">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>
+                    전체 제품 카탈로그 PDF 다운로드
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE: 제품 상세 -->
+    <div id="page-product-detail" class="page-content hidden pt-28 pb-20">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <button onclick="showPage('products')" class="inline-flex items-center text-sm font-semibold text-brand mb-6 hover:underline gap-1"><span>&larr;</span> 제품 목록으로</button>
+            <div class="bg-white rounded-2xl p-6 sm:p-10 border border-gray-100 shadow-sm">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="aspect-square bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center">
+                            <img id="detail-img" src="" alt="" class="w-full h-full object-contain">
+                        </div>
+                        <div id="detail-thumbs" class="flex flex-wrap gap-2 mt-3"></div>
+                    </div>
+                    <div class="min-w-0">
+                        <span id="detail-category" class="text-xs font-bold text-brand tracking-wider"></span>
+                        <h1 id="detail-title" class="text-2xl sm:text-3xl font-extrabold text-gray-900 mt-1"></h1>
+                        <p id="detail-model" class="text-gray-500 font-mono mt-1"></p>
+                        <p id="detail-desc" class="text-gray-700 leading-relaxed mt-5"></p>
+                        <div class="border border-gray-200 rounded-xl overflow-hidden mt-6">
+                            <table class="w-full text-left text-sm"><tbody id="detail-specs"></tbody></table>
+                        </div>
+                        <p id="detail-g2b" class="text-xs text-gray-500 mt-3 leading-relaxed"></p>
+                    </div>
+                </div>
+                <div class="mt-10 pt-6 border-t border-gray-100 flex flex-col sm:flex-row gap-3 justify-between">
+                    <button onclick="showPage('products')" class="px-6 py-3 bg-gray-100 text-gray-700 rounded-xl font-semibold hover:bg-gray-200 transition">목록으로</button>
+                    <button onclick="showPage('contact')" class="px-8 py-3 bg-brand text-white rounded-xl font-semibold hover:bg-blue-900 transition">구매·견적 문의하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE: 고객문의 -->
+    <div id="page-contact" class="page-content hidden pt-28 pb-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h1 class="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-3">고객문의</h1>
+                <p class="text-gray-600">구매·견적·납품 문의는 전화로 연락 주시면 바로 안내해 드립니다.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                    <span class="text-xs font-bold text-brand tracking-wider block mb-1">대표 전화</span>
+                    <a href="tel:01045898830" class="text-3xl font-black text-gray-900 hover:text-brand">010-4589-8830</a>
+                    <div class="mt-5 pt-5 border-t border-gray-100 space-y-3 text-sm">
+                        <p><span class="text-gray-500 inline-block w-24">사무실</span><a href="tel:0555520953" class="font-semibold hover:text-brand">055-552-0953</a></p>
+                        <p><span class="text-gray-500 inline-block w-24">대표자</span><span class="font-semibold">안상태</span></p>
+                        <p><span class="text-gray-500 inline-block w-24">사업자번호</span><span class="font-semibold">609-18-92675</span></p>
+                    </div>
+                    <div class="flex gap-2 mt-6">
+                        <a href="tel:01045898830" class="flex-1 text-center py-3 rounded-xl bg-brand text-white font-semibold">전화 걸기</a>
+                        <a href="sms:01045898830" class="flex-1 text-center py-3 rounded-xl bg-gray-100 text-gray-800 font-semibold">문자 보내기</a>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                    <span class="text-xs font-bold text-brand tracking-wider block mb-1">공장 · 본사</span>
+                    <p class="text-lg font-bold text-gray-900">경남 김해시 한림면 명동로 51</p>
+                    <div class="flex gap-2 mt-5">
+                        <a target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B9%80%ED%95%B4%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EB%A9%B4%20%EB%AA%85%EB%8F%99%EB%A1%9C%2051" class="flex-1 text-center py-3 rounded-xl bg-green-600 text-white font-semibold">네이버 지도</a>
+                        <a target="_blank" rel="noopener" href="https://map.kakao.com/?q=%EA%B9%80%ED%95%B4%EC%8B%9C%20%ED%95%9C%EB%A6%BC%EB%A9%B4%20%EB%AA%85%EB%8F%99%EB%A1%9C%2051" class="flex-1 text-center py-3 rounded-xl bg-yellow-400 text-gray-900 font-semibold">카카오맵</a>
+                    </div>
+                    <div class="mt-6 pt-5 border-t border-gray-100">
+                        <span class="text-xs font-bold text-brand tracking-wider block mb-2">공공기관 구매</span>
+                        <p class="text-sm text-gray-600 leading-relaxed">나라장터 쇼핑몰(shop.g2b.go.kr)에서 업체명 <b>‘동영종합환경’</b>으로 검색하면 등록 제품을 바로 확인·납품요구하실 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-10">
+                <a href="catalog/dongyoung_catalog.pdf" download class="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-brand text-brand font-semibold hover:bg-blue-50 transition">제품 카탈로그 PDF 다운로드</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-sm">
+            <div class="flex flex-col md:flex-row justify-between gap-6">
+                <div>
+                    <span class="text-white text-lg font-bold">동영종합환경</span>
+                    <p class="mt-2 text-xs text-gray-500">대표자: 안상태 | 사업자등록번호: 609-18-92675</p>
+                    <p class="text-xs text-gray-500">주소: 경남 김해시 한림면 명동로 51 | 전화: 010-4589-8830 · 055-552-0953</p>
+                </div>
+                <div class="text-xs text-gray-500 md:text-right">
+                    <p>© 동영종합환경 DongYoung ENV. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+        const IMG = 'assets/images/products/';
+        const CATEGORIES = [
+            { id: 'snow', name: '제설함', desc: '덮개·손잡이가 달린 타원형 제설함. 일반형과 내용물이 보이는 투시창형.', cover: 'dyz-hps-1.webp' },
+            { id: 'recycle', name: '재활용 수거함', desc: '폐형광등 수거함, 폐건전지 수거함', cover: 'dyl-300-1.webp' },
+            { id: 'net', name: '분리수거용 그물망', desc: '분리수거용 그물망과 그물망 태그', cover: 'dyn-100-1.webp' },
+            { id: 'order', name: '기관명·로고 표기', desc: '납품 기관명·로고를 넣어 제작', cover: 'dyz-hpl-2.webp' }
+        ];
+        // 규격·단가·식별번호: 나라장터 쇼핑몰 등록 정보 (2026년 10월 확인)
+        const PRODUCTS = [
+            { id: 'dyz-ps', cat: 'snow', model: 'DYZ-PS', title: '제설함 (소형, 150L)',
+              desc: '덮개와 손잡이가 달린 타원형 제설함입니다. 뚜껑은 ABS, 몸체는 HDPE로 만들었습니다.',
+              imgs: ['dyz-ps-1.webp'],
+              specs: [['규격', '790 × 560 × 520 mm'], ['용량', '150 L'], ['재질', '뚜껑 ABS / 몸체 HDPE'], ['두께', '2.0 mm'], ['무게', '8.5 kg'], ['구성', '덮개·손잡이 있음, 바퀴 없음']],
+              g2b: { name: '분리수거함', no: '23600959', price: 158400 } },
+            { id: 'dyz-pl', cat: 'snow', model: 'DYZ-PL', title: '제설함 (대형, 320L)',
+              desc: '덮개와 손잡이가 달린 대형 타원형 제설함입니다. 뚜껑은 ABS, 몸체는 HDPE로 만들었습니다.',
+              imgs: ['dyz-pl-1.webp'],
+              specs: [['규격', '1050 × 720 × 690 mm'], ['용량', '320 L'], ['재질', '뚜껑 ABS / 몸체 HDPE'], ['두께', '2.5 mm'], ['무게', '12.5 kg'], ['구성', '덮개·손잡이 있음, 바퀴 없음']],
+              g2b: { name: '분리수거함', no: '23600958', price: 174900 } },
+            { id: 'dyz-hps', cat: 'snow', model: 'DYZ-HPS', title: '투시창 제설함 (소형)',
+              desc: '덮개에 투시창이 있어 열지 않고도 안의 내용물을 확인할 수 있는 제설함입니다.',
+              imgs: ['dyz-hps-1.webp', 'dyz-hps-2.webp', 'dyz-hps-3.webp'],
+              specs: [['규격', '790 × 560 × 520 mm'], ['특징', '덮개 투시창']],
+              g2b: { name: '투시창 분리수거함', no: '25641324', price: 165000 } },
+            { id: 'dyz-hpl', cat: 'snow', model: 'DYZ-HPL', title: '투시창 제설함 (대형)',
+              desc: '덮개에 투시창이 있어 열지 않고도 안의 내용물을 확인할 수 있는 대형 제설함입니다.',
+              imgs: ['dyz-hpl-1.webp', 'dyz-hpl-2.webp', 'dyz-hpl-3.webp'],
+              specs: [['규격', '1050 × 720 × 690 mm'], ['특징', '덮개 투시창']],
+              g2b: { name: '투시창 분리수거함', no: '25641323', price: 180000 } },
+            { id: 'dyl-300', cat: 'recycle', model: 'DYL-300', title: '폐형광등 수거함',
+              desc: '폐형광등을 수거·적재·운반하는 바구니형 수거함입니다. 쇠고리를 걸면 여러 단으로 쌓을 수 있고, 바닥에 배수홀이 있습니다.',
+              imgs: ['dyl-300-1.webp', 'dyl-300-2.webp', 'dyl-300-3.webp', 'dyl-300-4.webp', 'dyl-300-5.webp', 'dyl-300-spec.webp'],
+              specs: [['규격', '1330 × 488 × 308 mm'], ['재질', 'HDPE (재생·재활용 가능)'], ['용도', '폐형광등 수거·적재·운반'], ['원산지', '국내산']],
+              g2b: { name: '폐형광등분리수거함', no: '24306062', price: 66000 } },
+            { id: 'dyb-30', cat: 'recycle', model: 'DYB-30', title: '폐건전지 수거함 (30L)',
+              desc: '건전지 모양의 폐건전지 수거함입니다. 바닥 스펀지로 투입 소음을 줄였고, 바닥에 배수구멍이 있습니다. 철제 수거함과 달리 정전기가 생기지 않습니다.',
+              imgs: ['dyb-30-1.webp', 'dyb-30-spec.webp'],
+              specs: [['규격', '지름 300 × 높이 680 mm'], ['용량', '30 L'], ['재질', 'PP'], ['원산지', '국내생산']],
+              g2b: { name: '폐건전지수거함', no: '25641325', price: 66000 } },
+            { id: 'dyn-100', cat: 'net', model: 'DYN-100', title: '분리수거용 그물망 100L',
+              desc: '분리수거함에 끼워 쓰는 그물망입니다.',
+              imgs: ['dyn-100-1.webp'],
+              specs: [['규격', '350 × 350 × 800 mm'], ['용량', '100 L']],
+              g2b: { name: '(부품)분리수거용그물망', no: '23600976', price: 3500 } },
+            { id: 'dyn-200', cat: 'net', model: 'DYN-200', title: '분리수거용 그물망 200L',
+              desc: '분리수거함에 끼워 쓰는 그물망입니다.',
+              imgs: ['dyn-200-1.webp'],
+              specs: [['규격', '500 × 500 × 1050 mm'], ['용량', '200 L']],
+              g2b: { name: '(부품)분리수거용그물망', no: '23600975', price: 4290 } },
+            { id: 'dyw-100', cat: 'net', model: 'DYW-100', title: '분리수거용 그물망 (사각)',
+              desc: '분리수거용 그물망입니다.',
+              imgs: ['dyw-100-1.webp'],
+              specs: [['규격', '700 × 700 × 400 mm']],
+              g2b: { name: '(부품)분리수거용그물망', no: '23680055', price: 3500 } },
+            { id: 'dyb-gc', cat: 'net', model: 'DYB-GC', title: '그물망 태그',
+              desc: '그물망에 기관명·로고 등을 표시하는 태그입니다.',
+              imgs: ['dyb-gc-1.webp'],
+              specs: [['용도', '그물망 표시용 태그']],
+              g2b: { name: '(부품)그물망태그', no: '23603848', price: 52 } }
+        ];
+
+        const won = n => n.toLocaleString('ko-KR') + '원';
+        let currentCat = 'all';
+
+        function renderHome() {
+            document.getElementById('home-categories').innerHTML = CATEGORIES.map(c => `
+                <button onclick="${c.id === 'order' ? "showPage('contact')" : `currentCat='${c.id}'; showPage('products')`}" class="text-left bg-gray-50 rounded-xl overflow-hidden border border-gray-100 hover:shadow-xl transition group">
+                    <div class="aspect-[4/3] bg-white flex items-center justify-center overflow-hidden"><img src="${IMG + c.cover}" alt="${c.name}" class="w-full h-full object-contain group-hover:scale-105 transition" loading="lazy"></div>
+                    <div class="p-5"><h3 class="text-lg font-bold text-gray-900 group-hover:text-brand">${c.name}</h3><p class="text-sm text-gray-600 mt-1">${c.desc}</p></div>
+                </button>`).join('');
+        }
+        function renderProducts() {
+            const cats = [{ id: 'all', name: '전체' }, ...CATEGORIES.filter(c => c.id !== 'order')];
+            document.getElementById('cat-filter').innerHTML = cats.map(c =>
+                `<button onclick="currentCat='${c.id}'; renderProducts()" class="px-4 py-2 rounded-full text-sm font-semibold border transition ${currentCat === c.id ? 'bg-brand text-white border-brand' : 'bg-white text-gray-700 border-gray-200 hover:border-brand'}">${c.name}</button>`).join('');
+            const list = PRODUCTS.filter(p => currentCat === 'all' || p.cat === currentCat);
+            document.getElementById('product-grid').innerHTML = list.map(p => `
+                <button onclick="openProduct('${p.id}')" class="text-left bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition group">
+                    <div class="aspect-square bg-white relative flex items-center justify-center overflow-hidden">
+                        <img src="${IMG + p.imgs[0]}" alt="${p.title}" class="w-full h-full object-contain group-hover:scale-105 transition" loading="lazy">
+                        <span class="absolute top-3 left-3 bg-brand text-white text-xs px-3 py-1 rounded-full font-semibold">${CATEGORIES.find(c => c.id === p.cat).name}</span>
+                    </div>
+                    <div class="p-6 border-t border-gray-100">
+                        <p class="text-xs font-mono text-gray-500">${p.model}</p>
+                        <h3 class="text-xl font-bold text-gray-900 mb-1 group-hover:text-brand">${p.title}</h3>
+                        <p class="text-gray-500 text-sm">${p.specs[0][1]}</p>
+                        <div class="mt-3 text-xs font-bold text-brand">상세 규격 보기 &rarr;</div>
+                    </div>
+                </button>`).join('');
+        }
+        function openProduct(id) {
+            const p = PRODUCTS.find(x => x.id === id); if (!p) return;
+            document.getElementById('detail-category').innerText = CATEGORIES.find(c => c.id === p.cat).name;
+            document.getElementById('detail-title').innerText = p.title;
+            document.getElementById('detail-model').innerText = '모델명 ' + p.model;
+            document.getElementById('detail-desc').innerText = p.desc;
+            const main = document.getElementById('detail-img');
+            main.src = IMG + p.imgs[0]; main.alt = p.title;
+            document.getElementById('detail-thumbs').innerHTML = p.imgs.length > 1 ? p.imgs.map((f, i) =>
+                `<button onclick="setImg(this,'${f}')" class="thumb w-16 h-16 rounded-lg overflow-hidden bg-gray-50 border border-gray-200 ${i === 0 ? 'active' : ''}"><img src="${IMG + f}" alt="" class="w-full h-full object-cover"></button>`).join('') : '';
+            const rows = [...p.specs, ['제조사 / 원산지', '동영종합환경 (경남 김해) / 대한민국']];
+            if (p.g2b) rows.push(['나라장터 단가', won(p.g2b.price)]);
+            document.getElementById('detail-specs').innerHTML = rows.map((r, i) =>
+                `<tr class="${i ? 'border-t border-gray-100' : ''} ${i % 2 ? '' : 'bg-gray-50'}"><th class="p-3 font-semibold text-gray-900 w-1/3 align-top">${r[0]}</th><td class="p-3">${r[1]}</td></tr>`).join('');
+            document.getElementById('detail-g2b').innerHTML = p.g2b
+                ? `나라장터 쇼핑몰 등록명 ‘${p.g2b.name}’ · 물품식별번호 <b>${p.g2b.no}</b> (쓰레기통 품목). 단가는 2026년 10월 나라장터 등록 기준이며 변경될 수 있습니다.` : '';
+            showPage('product-detail');
+        }
+        function setImg(btn, f) {
+            document.getElementById('detail-img').src = IMG + f;
+            document.querySelectorAll('#detail-thumbs .thumb').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        }
+        function showPage(pageId) {
+            document.querySelectorAll('.page-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById('page-' + pageId)?.classList.remove('hidden');
+            mobileMenu.classList.add('hidden');
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('text-brand', 'font-bold'));
+            document.getElementById('nav-' + (pageId === 'product-detail' ? 'products' : pageId))?.classList.add('text-brand', 'font-bold');
+            if (pageId === 'products') renderProducts();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        renderHome();
+        showPage('home');
+    </script>
+</body>
+</html>
